@@ -18,7 +18,7 @@
 - Search in Rotated Array: `/array_problems/search_rotated.cpp`
 - Min in Rotated Array: `/array_problems/min_rotated.cpp`
 - Max in Rotated Array: `/array_problems/max_rotated.cpp`
-- Rotation Count: `/array_problems/rotation_count.cpp`
+- Rotation Count: `/array_problems/pivot_element.cpp`
 - Square Root: `/array_problems/sqrt.cpp`
 - Kth Missing Element: `/array_problems/kth_missing.cpp`
 - Maximum Product Subarray: `/array_problems/max_product_subarray.cpp`
@@ -67,4 +67,4 @@
 
 - Doubly Linked List Implementation: `/doubly_linked_list.cpp`
 
-All paths are relative to the root directory: `/Users/iamdanwi/Developer/dsa/`
+All paths are relative to the root directory: `/dsa/`
