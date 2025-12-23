@@ -1,1 +1,34 @@
-/67
+# Ignore C/C++ compiled artifacts and common build files 🔧
+
+# Compiled object files
+*.o
+*.obj
+
+
+# a.out is a common default executable
+a.out
+*.out
+*.exe
+bin/
+build/
+
+# Libraries and archives
+*.so
+*.dylib
+*.a
+*.lib
+
+# Debugging symbols (macOS)
+*.dSYM/
+
+# Editors, OS files, and temp
+.vscode/
+.DS_Store
+*.swp
+*~
+
+# Logs and coverage
+*.log
+coverage/
+*.gcda
+*.gcno
