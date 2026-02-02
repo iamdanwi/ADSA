@@ -1,13 +1,11 @@
 #include <iostream>
+#include <vector>
 
 int main()
 {
-    int count;
-    std::cin >> count;
-    for (size_t i = 0; i < count; i += count / 2)
-    {
-        std::cout << "Hello, World!" << std::endl;
-    }
+    std::vector<int> nums = {1, 2, 3, 4, 5};
+
+    std::cout << "Size of the array is: " << nums.size() << std::endl;
 
     return 0;
 }
