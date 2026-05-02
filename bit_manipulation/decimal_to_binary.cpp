@@ -4,7 +4,7 @@
 
 using namespace std;
 
-string binaryToDecimal(int n)
+string decimalToBinary(int n)
 {
     string res = "";
 
@@ -26,7 +26,7 @@ string binaryToDecimal(int n)
 
 int main(int argc, char const *argv[])
 {
-    int n = 7;
-    cout << "The binary of " << n << " is " << binaryToDecimal(n) << endl;
+    int n = 13;
+    cout << "The binary of " << n << " is " << decimalToBinary(n) << endl;
     return 0;
 }
